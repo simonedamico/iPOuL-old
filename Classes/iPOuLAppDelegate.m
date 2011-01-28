@@ -24,6 +24,7 @@
     // Override point for customization after application launch.
 	
 	// Set the main view controller as the window's root view controller and display.
+	application.applicationSupportsShakeToEdit = YES;
     self.window.rootViewController = self.mainViewController;
     [self.window makeKeyAndVisible];
 

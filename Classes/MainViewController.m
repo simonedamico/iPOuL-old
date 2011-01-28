@@ -68,6 +68,35 @@
 	[self.activityIndicator startAnimating];
 }
 
+#pragma mark -
+#pragma mark Roba di supporto allo shake
+
+- (BOOL)canBecomeFirstResponder {
+	return YES;
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+	[super viewDidAppear:animated];
+	[self becomeFirstResponder];
+}
+
+- (void)viewWillDisappear:(BOOL)animated{
+	[self resignFirstResponder];
+	[super viewWillDisappear:animated];
+}
+
+
+- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event{
+	if (motion == UIEventSubtypeMotionShake) {
+		self.statoSedeLabel.hidden = YES;
+		[self connectToBITS];
+		self.activityIndicator.hidden = NO;
+		[self.activityIndicator startAnimating];
+	}
+}
+
+#pragma mark -
+
 
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {
     
