@@ -57,7 +57,7 @@
 											   otherButtonTitles: nil];
 	[errorAlert show];
 	[errorAlert release];
-	[activityIndicator stopAnimating];
+	[self.activityIndicator stopAnimating];
 }
 
 - (void)viewWillAppear:(BOOL)animated{
