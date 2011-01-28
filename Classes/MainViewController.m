@@ -96,8 +96,9 @@
 
 
 - (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
+	self.statoSedeLabel = nil;
+	self.statoSede = nil;
+	self.activityIndicator = nil;
 }
 
 - (void)dealloc {
