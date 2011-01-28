@@ -19,6 +19,11 @@
 	</array>
 	<key>CFBundleShortVersionString</key>
 	<string></string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>wifi</string>
+		<string>accelerometer</string>
+	</array>
 	<key>CFBundleIdentifier</key>
 	<string>com.thmdev.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
