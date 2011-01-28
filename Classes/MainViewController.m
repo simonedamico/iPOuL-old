@@ -15,12 +15,7 @@
 @synthesize statoSede;
 @synthesize activityIndicator;
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-	[super viewDidLoad];
-}
-*/
+
 
 - (void)connectToBITS{
 	NSURL * bitsURL = [NSURL URLWithString:@"http://bits.otacon22.it/read_app.txt"];
@@ -104,16 +99,6 @@
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
 }
-
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	// Return YES for supported orientations.
-	return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
 
 - (void)dealloc {
     [super dealloc];
