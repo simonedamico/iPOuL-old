@@ -7,7 +7,7 @@
 //
 
 #import "iPOuLAppDelegate.h"
-#import "MainViewController.h"
+#import "THMBitsViewController.h"
 
 @implementation iPOuLAppDelegate
 

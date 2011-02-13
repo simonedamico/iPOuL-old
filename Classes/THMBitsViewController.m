@@ -6,10 +6,10 @@
 //  Copyright 2011 Maxim s.n.c. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "THMBitsViewController.h"
 
 
-@implementation MainViewController
+@implementation THMBitsViewController
 
 @synthesize statoSedeLabel;
 @synthesize statoSede;

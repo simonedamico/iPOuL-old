@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class MainViewController;
+@class THMBitsViewController;
 
 @interface iPOuLAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    MainViewController *mainViewController;
+    THMBitsViewController *mainViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet MainViewController *mainViewController;
+@property (nonatomic, retain) IBOutlet THMBitsViewController *mainViewController;
 
 @end
 

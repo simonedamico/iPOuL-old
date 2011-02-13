@@ -8,7 +8,7 @@
 
 #import "FlipsideViewController.h"
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
+@interface THMBitsViewController : UIViewController <FlipsideViewControllerDelegate> {
 	UILabel * statoSedeLabel;
 	NSMutableString * statoSede;
 	UIActivityIndicatorView * activityIndicator;
