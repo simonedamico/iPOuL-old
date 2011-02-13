@@ -35,7 +35,6 @@
 		FCB0FC301308646B00476A4E /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB0FC2E1308646B00476A4E /* 96-book.png */; };
 		FCB0FC311308646B00476A4E /* 96-book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB0FC2F1308646B00476A4E /* 96-book@2x.png */; };
 		FCB0FC6A130868C100476A4E /* THMDocumentiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB0FC68130868C100476A4E /* THMDocumentiViewController.m */; };
-		FCB0FC6B130868C100476A4E /* Documenti.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB0FC69130868C100476A4E /* Documenti.xib */; };
 		FCB0FCFF13087A0700476A4E /* giornalinux0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB0FCFE13087A0700476A4E /* giornalinux0.pdf */; };
 		FCB0FD0313087A2900476A4E /* giornalinux1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB0FD0213087A2900476A4E /* giornalinux1.pdf */; };
 		FCB0FD0513087A7100476A4E /* giornalinux2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCB0FD0413087A7100476A4E /* giornalinux2.pdf */; };
@@ -87,7 +86,6 @@
 		FCB0FC2F1308646B00476A4E /* 96-book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book@2x.png"; sourceTree = "<group>"; };
 		FCB0FC67130868C100476A4E /* THMDocumentiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMDocumentiViewController.h; sourceTree = "<group>"; };
 		FCB0FC68130868C100476A4E /* THMDocumentiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMDocumentiViewController.m; sourceTree = "<group>"; };
-		FCB0FC69130868C100476A4E /* Documenti.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Documenti.xib; sourceTree = "<group>"; };
 		FCB0FCFE13087A0700476A4E /* giornalinux0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = giornalinux0.pdf; sourceTree = "<group>"; };
 		FCB0FD0213087A2900476A4E /* giornalinux1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = giornalinux1.pdf; sourceTree = "<group>"; };
 		FCB0FD0413087A7100476A4E /* giornalinux2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = giornalinux2.pdf; sourceTree = "<group>"; };
@@ -224,7 +222,6 @@
 		FCB72A1B13083346004388B1 /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
-				FCB0FC69130868C100476A4E /* Documenti.xib */,
 				FCE9DB78130837E600D6224B /* Map.xib */,
 				280E754A0DD40C5E005A515E /* Credits.xib */,
 				280E754B0DD40C5E005A515E /* Bits.xib */,
@@ -330,7 +327,6 @@
 				FCB0FC2A1308638500476A4E /* 73-radar.png in Resources */,
 				FCB0FC301308646B00476A4E /* 96-book.png in Resources */,
 				FCB0FC311308646B00476A4E /* 96-book@2x.png in Resources */,
-				FCB0FC6B130868C100476A4E /* Documenti.xib in Resources */,
 				FCB0FCFF13087A0700476A4E /* giornalinux0.pdf in Resources */,
 				FCB0FD0313087A2900476A4E /* giornalinux1.pdf in Resources */,
 				FCB0FD0513087A7100476A4E /* giornalinux2.pdf in Resources */,

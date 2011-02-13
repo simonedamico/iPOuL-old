@@ -105,6 +105,17 @@ typedef enum {
 			}
 
 			break;
+			
+		case Prontuari:
+			switch (indexPath.row) {
+				case 0:
+					testo = @"Prontuario Bash";
+					break;
+				default:
+					break;
+			}
+			break;
+
 
 		default:
 			break;
