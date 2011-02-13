@@ -25,7 +25,15 @@
 		FC126A9512F2F64300953BE3 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = FC126A8E12F2F64300953BE3 /* iTunesArtwork */; };
 		FC126AA812F2F91800953BE3 /* tux.png in Resources */ = {isa = PBXBuildFile; fileRef = FC126AA712F2F91800953BE3 /* tux.png */; };
 		FC126B2512F32B7800953BE3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC126B2412F32B7800953BE3 /* Default.png */; };
+		FCB0FBEA13083F0100476A4E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0FBE913083F0100476A4E /* CoreLocation.framework */; };
+		FCB0FBEE13083F1200476A4E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0FBED13083F1200476A4E /* MapKit.framework */; };
 		FCDEAFBD12F2DCED0000C651 /* logoPoul.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDEAFBC12F2DCED0000C651 /* logoPoul.png */; };
+		FCE9DB79130837E600D6224B /* THMPOuLMap.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE9DB77130837E600D6224B /* THMPOuLMap.m */; };
+		FCE9DB7A130837E600D6224B /* Map.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE9DB78130837E600D6224B /* Map.xib */; };
+		FCE9DB7F13083CE300D6224B /* 103-map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE9DB7D13083CE300D6224B /* 103-map@2x.png */; };
+		FCE9DB8013083CE300D6224B /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE9DB7E13083CE300D6224B /* 103-map.png */; };
+		FCE9DB8613083D7300D6224B /* 59-info.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE9DB8413083D7300D6224B /* 59-info.png */; };
+		FCE9DB8713083D7300D6224B /* 59-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE9DB8513083D7300D6224B /* 59-info@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +61,16 @@
 		FC126AA712F2F91800953BE3 /* tux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tux.png; sourceTree = "<group>"; };
 		FC126B2412F32B7800953BE3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FC126B7B12F3549700953BE3 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		FCB0FBE913083F0100476A4E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FCB0FBED13083F1200476A4E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FCDEAFBC12F2DCED0000C651 /* logoPoul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoPoul.png; sourceTree = "<group>"; };
+		FCE9DB76130837E600D6224B /* THMPOuLMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMPOuLMap.h; sourceTree = "<group>"; };
+		FCE9DB77130837E600D6224B /* THMPOuLMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMPOuLMap.m; sourceTree = "<group>"; };
+		FCE9DB78130837E600D6224B /* Map.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Map.xib; sourceTree = "<group>"; };
+		FCE9DB7D13083CE300D6224B /* 103-map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map@2x.png"; sourceTree = "<group>"; };
+		FCE9DB7E13083CE300D6224B /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
+		FCE9DB8413083D7300D6224B /* 59-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "59-info.png"; path = "../../../Downloads/Glyphish Pro/symbols/59-info.png"; sourceTree = SOURCE_ROOT; };
+		FCE9DB8513083D7300D6224B /* 59-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "59-info@2x.png"; path = "../../../Downloads/Glyphish Pro/symbols/59-info@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +81,8 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
+				FCB0FBEA13083F0100476A4E /* CoreLocation.framework in Frameworks */,
+				FCB0FBEE13083F1200476A4E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +147,8 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765580DF743DE002DB57D /* CoreGraphics.framework */,
+				FCB0FBE913083F0100476A4E /* CoreLocation.framework */,
+				FCB0FBED13083F1200476A4E /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,6 +165,8 @@
 			children = (
 				289233A80DB2D0DB0083E9F9 /* THMBitsViewController.h */,
 				289233A90DB2D0DB0083E9F9 /* THMBitsViewController.m */,
+				FCE9DB76130837E600D6224B /* THMPOuLMap.h */,
+				FCE9DB77130837E600D6224B /* THMPOuLMap.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -151,6 +174,7 @@
 		FCB72A1B13083346004388B1 /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
+				FCE9DB78130837E600D6224B /* Map.xib */,
 				280E754A0DD40C5E005A515E /* Credits.xib */,
 				280E754B0DD40C5E005A515E /* Bits.xib */,
 				280E754C0DD40C5E005A515E /* MainWindow.xib */,
@@ -161,6 +185,10 @@
 		FCB72A1C1308334E004388B1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FCE9DB8413083D7300D6224B /* 59-info.png */,
+				FCE9DB8513083D7300D6224B /* 59-info@2x.png */,
+				FCE9DB7D13083CE300D6224B /* 103-map@2x.png */,
+				FCE9DB7E13083CE300D6224B /* 103-map.png */,
 				FC126B2412F32B7800953BE3 /* Default.png */,
 				FC126A8812F2F64300953BE3 /* Icon-72.png */,
 				FC126A8912F2F64300953BE3 /* Icon-Small-50.png */,
@@ -238,6 +266,11 @@
 				FC126A9512F2F64300953BE3 /* iTunesArtwork in Resources */,
 				FC126AA812F2F91800953BE3 /* tux.png in Resources */,
 				FC126B2512F32B7800953BE3 /* Default.png in Resources */,
+				FCE9DB7A130837E600D6224B /* Map.xib in Resources */,
+				FCE9DB7F13083CE300D6224B /* 103-map@2x.png in Resources */,
+				FCE9DB8013083CE300D6224B /* 103-map.png in Resources */,
+				FCE9DB8613083D7300D6224B /* 59-info.png in Resources */,
+				FCE9DB8713083D7300D6224B /* 59-info@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +284,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* iPOuLAppDelegate.m in Sources */,
 				289233AE0DB2D0DB0083E9F9 /* THMBitsViewController.m in Sources */,
+				FCE9DB79130837E600D6224B /* THMPOuLMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
