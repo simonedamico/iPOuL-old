@@ -7,14 +7,12 @@
 //
 
 #import "iPOuLAppDelegate.h"
-#import "THMBitsViewController.h"
 
 @implementation iPOuLAppDelegate
 
 
 @synthesize window;
-@synthesize mainViewController;
-
+@synthesize tabBarController;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -25,7 +23,7 @@
 	
 	// Set the main view controller as the window's root view controller and display.
 	application.applicationSupportsShakeToEdit = YES;
-    self.window.rootViewController = self.mainViewController;
+	[self.window addSubview:tabBarController.view];
     [self.window makeKeyAndVisible];
 
     return YES;
@@ -81,7 +79,7 @@
 
 
 - (void)dealloc {
-    [mainViewController release];
+	[tabBarController release];
     [window release];
     [super dealloc];
 }

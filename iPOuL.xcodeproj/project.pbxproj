@@ -11,12 +11,11 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* FlipsideView.xib */; };
-		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
+		280E754D0DD40C5E005A515E /* Credits.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* Credits.xib */; };
+		280E754E0DD40C5E005A515E /* Bits.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* Bits.xib */; };
 		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
 		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
 		289233AE0DB2D0DB0083E9F9 /* THMBitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* THMBitsViewController.m */; };
-		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
 		FC126A8F12F2F64300953BE3 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FC126A8812F2F64300953BE3 /* Icon-72.png */; };
 		FC126A9012F2F64300953BE3 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = FC126A8912F2F64300953BE3 /* Icon-Small-50.png */; };
 		FC126A9112F2F64300953BE3 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = FC126A8A12F2F64300953BE3 /* Icon-Small.png */; };
@@ -35,14 +34,12 @@
 		1D3623250D0F684500981E51 /* iPOuLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPOuLAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* iPOuL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPOuL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		280E754A0DD40C5E005A515E /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
-		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		280E754A0DD40C5E005A515E /* Credits.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Credits.xib; sourceTree = "<group>"; };
+		280E754B0DD40C5E005A515E /* Bits.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Bits.xib; sourceTree = "<group>"; };
 		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		289233A80DB2D0DB0083E9F9 /* THMBitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THMBitsViewController.h; path = Classes/THMBitsViewController.h; sourceTree = "<group>"; };
 		289233A90DB2D0DB0083E9F9 /* THMBitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THMBitsViewController.m; path = Classes/THMBitsViewController.m; sourceTree = "<group>"; };
-		289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideViewController.h; path = Classes/FlipsideViewController.h; sourceTree = "<group>"; };
-		289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideViewController.m; path = Classes/FlipsideViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* iPOuL_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPOuL_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iPOuL-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPOuL-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -91,29 +88,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		281C6CD70DB2D82200F60ACC /* Flipside View */ = {
-			isa = PBXGroup;
-			children = (
-				289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */,
-				289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */,
-			);
-			name = "Flipside View";
-			sourceTree = "<group>";
-		};
-		289233A00DB2D0730083E9F9 /* Main View */ = {
-			isa = PBXGroup;
-			children = (
-				289233A80DB2D0DB0083E9F9 /* THMBitsViewController.h */,
-				289233A90DB2D0DB0083E9F9 /* THMBitsViewController.m */,
-			);
-			name = "Main View";
-			sourceTree = "<group>";
-		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				289233A00DB2D0730083E9F9 /* Main View */,
-				281C6CD70DB2D82200F60ACC /* Flipside View */,
+				FC43BF441308276D002F202B /* Controllers */,
+				FC43BF4313082766002F202B /* Models */,
 				080E96DDFE201D6D7F000001 /* Application Delegate */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -136,20 +115,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FC126A8812F2F64300953BE3 /* Icon-72.png */,
-				FC126A8912F2F64300953BE3 /* Icon-Small-50.png */,
-				FC126AA712F2F91800953BE3 /* tux.png */,
-				FC126A8A12F2F64300953BE3 /* Icon-Small.png */,
-				FC126A8B12F2F64300953BE3 /* Icon-Small@2x.png */,
-				FC126A8C12F2F64300953BE3 /* Icon.png */,
-				FC126A8D12F2F64300953BE3 /* Icon@2x.png */,
-				FC126A8E12F2F64300953BE3 /* iTunesArtwork */,
-				FCDEAFBC12F2DCED0000C651 /* logoPoul.png */,
-				280E754A0DD40C5E005A515E /* FlipsideView.xib */,
-				280E754B0DD40C5E005A515E /* MainView.xib */,
-				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+				FCB72A1C1308334E004388B1 /* Images */,
+				FCB72A1B13083346004388B1 /* Nibs */,
 				8D1107310486CEB800E47090 /* iPOuL-Info.plist */,
-				FC126B2412F32B7800953BE3 /* Default.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -162,6 +130,49 @@
 				288765580DF743DE002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC43BF4313082766002F202B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FC43BF441308276D002F202B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				289233A80DB2D0DB0083E9F9 /* THMBitsViewController.h */,
+				289233A90DB2D0DB0083E9F9 /* THMBitsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FCB72A1B13083346004388B1 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				280E754A0DD40C5E005A515E /* Credits.xib */,
+				280E754B0DD40C5E005A515E /* Bits.xib */,
+				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		FCB72A1C1308334E004388B1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FC126B2412F32B7800953BE3 /* Default.png */,
+				FC126A8812F2F64300953BE3 /* Icon-72.png */,
+				FC126A8912F2F64300953BE3 /* Icon-Small-50.png */,
+				FC126AA712F2F91800953BE3 /* tux.png */,
+				FC126A8A12F2F64300953BE3 /* Icon-Small.png */,
+				FC126A8B12F2F64300953BE3 /* Icon-Small@2x.png */,
+				FC126A8C12F2F64300953BE3 /* Icon.png */,
+				FC126A8D12F2F64300953BE3 /* Icon@2x.png */,
+				FC126A8E12F2F64300953BE3 /* iTunesArtwork */,
+				FCDEAFBC12F2DCED0000C651 /* logoPoul.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,8 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */,
-				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
+				280E754D0DD40C5E005A515E /* Credits.xib in Resources */,
+				280E754E0DD40C5E005A515E /* Bits.xib in Resources */,
 				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
 				FCDEAFBD12F2DCED0000C651 /* logoPoul.png in Resources */,
 				FC126A8F12F2F64300953BE3 /* Icon-72.png in Resources */,
@@ -240,7 +251,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* iPOuLAppDelegate.m in Sources */,
 				289233AE0DB2D0DB0083E9F9 /* THMBitsViewController.m in Sources */,
-				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

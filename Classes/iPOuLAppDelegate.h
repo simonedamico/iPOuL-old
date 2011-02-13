@@ -8,15 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class THMBitsViewController;
-
-@interface iPOuLAppDelegate : NSObject <UIApplicationDelegate> {
+@interface iPOuLAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
     UIWindow *window;
-    THMBitsViewController *mainViewController;
+	UITabBarController *tabBarController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet THMBitsViewController *mainViewController;
+@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 
 @end
 

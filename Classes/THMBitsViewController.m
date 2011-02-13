@@ -95,27 +95,6 @@
 	}
 }
 
-#pragma mark -
-
-
-- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {
-    
-	[self dismissModalViewControllerAnimated:YES];
-}
-
-
-- (IBAction)showInfo:(id)sender {    
-	
-	FlipsideViewController *controller = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
-	controller.delegate = self;
-	
-	controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-	[self presentModalViewController:controller animated:YES];
-	
-	[controller release];
-}
-
-
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
