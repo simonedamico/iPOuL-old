@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuickLook/QuickLook.h>
 
-
-@interface THMDocumentiViewController : UIViewController <UITableViewDelegate, UITableViewDelegate> {
+@interface THMDocumentiViewController : UIViewController <UITableViewDelegate, UITableViewDelegate, UIDocumentInteractionControllerDelegate> {
 	UITableView * tableView;
-
+	UIDocumentInteractionController * docInteractionController;
 }
 
 @property(nonatomic, retain) IBOutlet UITableView * tableView;
+@property(nonatomic, retain) UIDocumentInteractionController * docInteractionController;
+
 
 @end

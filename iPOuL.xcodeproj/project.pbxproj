@@ -28,6 +28,10 @@
 		FCA74F3D13087B45007DC7FD /* giornalinux6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCA74F3C13087B45007DC7FD /* giornalinux6.pdf */; };
 		FCA74F3F13087B67007DC7FD /* giornalinux7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCA74F3E13087B67007DC7FD /* giornalinux7.pdf */; };
 		FCA74F4113087B82007DC7FD /* giornalinux8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCA74F4013087B82007DC7FD /* giornalinux8.pdf */; };
+		FCA750A613088825007DC7FD /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA750A513088825007DC7FD /* QuickLook.framework */; };
+		FCA7513313089792007DC7FD /* statuto.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCA7513213089792007DC7FD /* statuto.pdf */; };
+		FCA7515613089AD0007DC7FD /* comandi_comuni.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCA7515513089AD0007DC7FD /* comandi_comuni.pdf */; };
+		FCA7517213089C66007DC7FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA7517113089C66007DC7FD /* Default.png */; };
 		FCB0FBEA13083F0100476A4E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0FBE913083F0100476A4E /* CoreLocation.framework */; };
 		FCB0FBEE13083F1200476A4E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0FBED13083F1200476A4E /* MapKit.framework */; };
 		FCB0FC291308638500476A4E /* 73-radar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB0FC271308638500476A4E /* 73-radar@2x.png */; };
@@ -78,6 +82,10 @@
 		FCA74F3C13087B45007DC7FD /* giornalinux6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = giornalinux6.pdf; sourceTree = "<group>"; };
 		FCA74F3E13087B67007DC7FD /* giornalinux7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = giornalinux7.pdf; sourceTree = "<group>"; };
 		FCA74F4013087B82007DC7FD /* giornalinux8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = giornalinux8.pdf; sourceTree = "<group>"; };
+		FCA750A513088825007DC7FD /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		FCA7513213089792007DC7FD /* statuto.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = statuto.pdf; sourceTree = "<group>"; };
+		FCA7515513089AD0007DC7FD /* comandi_comuni.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = comandi_comuni.pdf; sourceTree = "<group>"; };
+		FCA7517113089C66007DC7FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FCB0FBE913083F0100476A4E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FCB0FBED13083F1200476A4E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FCB0FC271308638500476A4E /* 73-radar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "73-radar@2x.png"; sourceTree = "<group>"; };
@@ -112,6 +120,7 @@
 				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
 				FCB0FBEA13083F0100476A4E /* CoreLocation.framework in Frameworks */,
 				FCB0FBEE13083F1200476A4E /* MapKit.framework in Frameworks */,
+				FCA750A613088825007DC7FD /* QuickLook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,10 +172,13 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FCA7513113089789007DC7FD /* Prontuari */,
+				FCA7513013089782007DC7FD /* Associazione */,
 				FCB0FCFC130879FE00476A4E /* Giornalinux */,
 				FCB72A1C1308334E004388B1 /* Images */,
 				FCB72A1B13083346004388B1 /* Nibs */,
 				8D1107310486CEB800E47090 /* iPOuL-Info.plist */,
+				FCA7517113089C66007DC7FD /* Default.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -179,6 +191,7 @@
 				288765580DF743DE002DB57D /* CoreGraphics.framework */,
 				FCB0FBE913083F0100476A4E /* CoreLocation.framework */,
 				FCB0FBED13083F1200476A4E /* MapKit.framework */,
+				FCA750A513088825007DC7FD /* QuickLook.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -201,6 +214,22 @@
 				FCB0FC68130868C100476A4E /* THMDocumentiViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FCA7513013089782007DC7FD /* Associazione */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7513213089792007DC7FD /* statuto.pdf */,
+			);
+			name = Associazione;
+			sourceTree = "<group>";
+		};
+		FCA7513113089789007DC7FD /* Prontuari */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7515513089AD0007DC7FD /* comandi_comuni.pdf */,
+			);
+			name = Prontuari;
 			sourceTree = "<group>";
 		};
 		FCB0FCFC130879FE00476A4E /* Giornalinux */ = {
@@ -336,6 +365,9 @@
 				FCA74F3D13087B45007DC7FD /* giornalinux6.pdf in Resources */,
 				FCA74F3F13087B67007DC7FD /* giornalinux7.pdf in Resources */,
 				FCA74F4113087B82007DC7FD /* giornalinux8.pdf in Resources */,
+				FCA7513313089792007DC7FD /* statuto.pdf in Resources */,
+				FCA7515613089AD0007DC7FD /* comandi_comuni.pdf in Resources */,
+				FCA7517213089C66007DC7FD /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
