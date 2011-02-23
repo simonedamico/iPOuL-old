@@ -130,31 +130,31 @@ typedef enum {
 		case Giornalinux:
 			switch (indexPath.row) {
 				case 0:
-					testo = @"Giornalinux 0";
+					testo = @"Giornalinux numero 0";
 					break;
 				case 1:
-					testo = @"Giornalinux 1";
+					testo = @"Giornalinux numero 1";
 					break;
 				case 2:
-					testo = @"Giornalinux 2";
+					testo = @"Giornalinux numero 2";
 					break;
 				case 3:
-					testo = @"Giornalinux 3";
+					testo = @"Giornalinux numero 3";
 					break;
 				case 4:
-					testo = @"Giornalinux 4";
+					testo = @"Giornalinux numero 4";
 					break;
 				case 5:
-					testo = @"Giornalinux 5";
+					testo = @"Giornalinux numero 5";
 					break;
 				case 6:
-					testo = @"Giornalinux 6";
+					testo = @"Giornalinux numero 6";
 					break;
 				case 7:
-					testo = @"Giornalinux 7";
+					testo = @"Giornalinux numero 7";
 					break;
 				case 8:
-					testo = @"Giornalinux 8";
+					testo = @"Giornalinux numero 8";
 					break;					
 					
 				default:

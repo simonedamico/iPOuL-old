@@ -24,8 +24,8 @@
 		FC126A9412F2F64300953BE3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC126A8D12F2F64300953BE3 /* Icon@2x.png */; };
 		FC126A9512F2F64300953BE3 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = FC126A8E12F2F64300953BE3 /* iTunesArtwork */; };
 		FC126AA812F2F91800953BE3 /* tux.png in Resources */ = {isa = PBXBuildFile; fileRef = FC126AA712F2F91800953BE3 /* tux.png */; };
-		FC126B2512F32B7800953BE3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC126B2412F32B7800953BE3 /* Default.png */; };
 		FC4683971315766B00B10E4B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4683961315766B00B10E4B /* iAd.framework */; };
+		FC46841B1315868100B10E4B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC46841A1315868100B10E4B /* Default.png */; };
 		FC7ACB84131512AA00B96D24 /* 59-info.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7ACB82131512AA00B96D24 /* 59-info.png */; };
 		FC7ACB85131512AA00B96D24 /* 59-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7ACB83131512AA00B96D24 /* 59-info@2x.png */; };
 		FCA74F3D13087B45007DC7FD /* giornalinux6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCA74F3C13087B45007DC7FD /* giornalinux6.pdf */; };
@@ -34,7 +34,6 @@
 		FCA750A613088825007DC7FD /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA750A513088825007DC7FD /* QuickLook.framework */; };
 		FCA7513313089792007DC7FD /* statuto.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCA7513213089792007DC7FD /* statuto.pdf */; };
 		FCA7515613089AD0007DC7FD /* comandi_comuni.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCA7515513089AD0007DC7FD /* comandi_comuni.pdf */; };
-		FCA7517213089C66007DC7FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA7517113089C66007DC7FD /* Default.png */; };
 		FCB0FBEA13083F0100476A4E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0FBE913083F0100476A4E /* CoreLocation.framework */; };
 		FCB0FBEE13083F1200476A4E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0FBED13083F1200476A4E /* MapKit.framework */; };
 		FCB0FC291308638500476A4E /* 73-radar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB0FC271308638500476A4E /* 73-radar@2x.png */; };
@@ -78,9 +77,9 @@
 		FC126A8D12F2F64300953BE3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		FC126A8E12F2F64300953BE3 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		FC126AA712F2F91800953BE3 /* tux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tux.png; sourceTree = "<group>"; };
-		FC126B2412F32B7800953BE3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FC126B7B12F3549700953BE3 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		FC4683961315766B00B10E4B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FC46841A1315868100B10E4B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FC7ACB82131512AA00B96D24 /* 59-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info.png"; sourceTree = "<group>"; };
 		FC7ACB83131512AA00B96D24 /* 59-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info@2x.png"; sourceTree = "<group>"; };
 		FCA74F3C13087B45007DC7FD /* giornalinux6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = giornalinux6.pdf; sourceTree = "<group>"; };
@@ -89,7 +88,6 @@
 		FCA750A513088825007DC7FD /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		FCA7513213089792007DC7FD /* statuto.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = statuto.pdf; sourceTree = "<group>"; };
 		FCA7515513089AD0007DC7FD /* comandi_comuni.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = comandi_comuni.pdf; sourceTree = "<group>"; };
-		FCA7517113089C66007DC7FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Images/Default.png; sourceTree = "<group>"; };
 		FCB0FBE913083F0100476A4E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FCB0FBED13083F1200476A4E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FCB0FC271308638500476A4E /* 73-radar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "73-radar@2x.png"; sourceTree = "<group>"; };
@@ -181,7 +179,7 @@
 				FCB72A1C1308334E004388B1 /* Images */,
 				FCB72A1B13083346004388B1 /* Nibs */,
 				8D1107310486CEB800E47090 /* iPOuL-Info.plist */,
-				FCA7517113089C66007DC7FD /* Default.png */,
+				FC46841A1315868100B10E4B /* Default.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -278,7 +276,6 @@
 				FCE9DB7E13083CE300D6224B /* 103-map.png */,
 				FCB0FC2E1308646B00476A4E /* 96-book.png */,
 				FCB0FC2F1308646B00476A4E /* 96-book@2x.png */,
-				FC126B2412F32B7800953BE3 /* Default.png */,
 				FC126A8812F2F64300953BE3 /* Icon-72.png */,
 				FC126A8912F2F64300953BE3 /* Icon-Small-50.png */,
 				FC126AA712F2F91800953BE3 /* tux.png */,
@@ -355,7 +352,6 @@
 				FC126A9412F2F64300953BE3 /* Icon@2x.png in Resources */,
 				FC126A9512F2F64300953BE3 /* iTunesArtwork in Resources */,
 				FC126AA812F2F91800953BE3 /* tux.png in Resources */,
-				FC126B2512F32B7800953BE3 /* Default.png in Resources */,
 				FCE9DB7A130837E600D6224B /* Map.xib in Resources */,
 				FCE9DB7F13083CE300D6224B /* 103-map@2x.png in Resources */,
 				FCE9DB8013083CE300D6224B /* 103-map.png in Resources */,
@@ -374,9 +370,9 @@
 				FCA74F4113087B82007DC7FD /* giornalinux8.pdf in Resources */,
 				FCA7513313089792007DC7FD /* statuto.pdf in Resources */,
 				FCA7515613089AD0007DC7FD /* comandi_comuni.pdf in Resources */,
-				FCA7517213089C66007DC7FD /* Default.png in Resources */,
 				FC7ACB84131512AA00B96D24 /* 59-info.png in Resources */,
 				FC7ACB85131512AA00B96D24 /* 59-info@2x.png in Resources */,
+				FC46841B1315868100B10E4B /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
