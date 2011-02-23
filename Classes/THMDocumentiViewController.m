@@ -165,6 +165,7 @@ typedef enum {
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
+	
 	NSString * nomePdf = nil;
 
 	
@@ -235,7 +236,9 @@ typedef enum {
 	NSURL * fileURL =  [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:nomePdf ofType:nil]];	
 	[self setupDocumentControllerWithURL:fileURL];
 	[self.docInteractionController presentPreviewAnimated:YES];
+	
 	[self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+
 	
 }
 
