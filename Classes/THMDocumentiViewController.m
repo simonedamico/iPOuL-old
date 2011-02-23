@@ -60,7 +60,9 @@ typedef enum {
 	return num;
 }
 
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+	UIView* customView = [[UIView alloc] initWithFrame:CGRectMake(10.0, 0.0, 300.0, 44.0)];
 	
 	NSString * titleOfSection;
 	
@@ -79,8 +81,26 @@ typedef enum {
 			break;
 	}
 	
-	return titleOfSection;
+	UILabel * headerLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+	headerLabel.backgroundColor = [UIColor clearColor];
+	headerLabel.opaque = NO;
+	headerLabel.textColor = [UIColor yellowColor];
+	headerLabel.highlightedTextColor = [UIColor whiteColor];
+	headerLabel.font = [UIFont boldSystemFontOfSize:25];
+	headerLabel.frame = CGRectMake(10.0, 0.0, 300.0, 44.0);
+	
+	
+	headerLabel.text = titleOfSection;
+	[customView addSubview:headerLabel];
+	
+	return customView;
 }
+
+- (CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+	return 44.0;
+}
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     

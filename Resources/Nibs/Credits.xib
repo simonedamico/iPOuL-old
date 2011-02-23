@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="40"/>
+			<integer value="47"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -9893,11 +9893,11 @@ AAEAAQABA</bytes>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIIndicatorStyle">1</int>
 						<bool key="IBUIEditable">NO</bool>
-						<string type="base64-UTF8" key="IBUIText">QXBwbGljYXppb25lIHJlYWxsaXp6YXRhIGRhOgpTaW1vbmUgRCdBbWljbyAKClNpc3RlbWEgQklUUyBy
-ZWFsaXp6YXRvIGRhOgpEYW5pZWxlIElhbWFydGlubyAmIGNvLgoKSWwgbG9nbyBlIGlsIG5vbWUgUE91
-TCBhcHBhcnRlbmdvbm8gYWxsJ29tb25pbWEgYXNzb2NpYXppb25lOgp3d3cucG91bC5vcmcKCklsIGNv
-ZGljZSBzb3JnZW50ZSDDqSBkaXNwb25pYmlsZSBzdToKaHR0cHM6Ly9naXRodWIuY29tL05la3UvaVBP
-dUw</string>
+						<string type="base64-UTF8" key="IBUIText">QXBwbGljYXppb25lIHJlYWxsaXp6YXRhIGRhOgpTaW1vbmUgRCdBbWljbyAKClNpc3RlbWEgQklUUyBk
+aXNwb25pYmlsZSBhbGwnVVJMOgpiaXRzLm90YWNvbjIyLml0CgpJbCBsb2dvIGUgaWwgbm9tZSBQT3VM
+IGFwcGFydGVuZ29ubyBhbGwnb21vbmltYSBhc3NvY2lhemlvbmU6Cnd3dy5wb3VsLm9yZwoKSWwgY29k
+aWNlIHNvcmdlbnRlIMOpIGRpc3BvbmliaWxlIHN1OgpodHRwczovL2dpdGh1Yi5jb20vTmVrdS9pUE91
+TA</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -10260,7 +10260,7 @@ dUw</string>
 			<integer value="3100" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<string key="IBDocument.LastKnownRelativeProjectPath">iPOuL.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">../../iPOuL.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="NS.key.0">logoPoul.png</string>
