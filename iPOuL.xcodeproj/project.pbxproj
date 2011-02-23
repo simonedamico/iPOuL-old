@@ -25,6 +25,7 @@
 		FC126A9512F2F64300953BE3 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = FC126A8E12F2F64300953BE3 /* iTunesArtwork */; };
 		FC126AA812F2F91800953BE3 /* tux.png in Resources */ = {isa = PBXBuildFile; fileRef = FC126AA712F2F91800953BE3 /* tux.png */; };
 		FC126B2512F32B7800953BE3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC126B2412F32B7800953BE3 /* Default.png */; };
+		FC4683971315766B00B10E4B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4683961315766B00B10E4B /* iAd.framework */; };
 		FC7ACB84131512AA00B96D24 /* 59-info.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7ACB82131512AA00B96D24 /* 59-info.png */; };
 		FC7ACB85131512AA00B96D24 /* 59-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7ACB83131512AA00B96D24 /* 59-info@2x.png */; };
 		FCA74F3D13087B45007DC7FD /* giornalinux6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCA74F3C13087B45007DC7FD /* giornalinux6.pdf */; };
@@ -79,6 +80,7 @@
 		FC126AA712F2F91800953BE3 /* tux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tux.png; sourceTree = "<group>"; };
 		FC126B2412F32B7800953BE3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FC126B7B12F3549700953BE3 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		FC4683961315766B00B10E4B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		FC7ACB82131512AA00B96D24 /* 59-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info.png"; sourceTree = "<group>"; };
 		FC7ACB83131512AA00B96D24 /* 59-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info@2x.png"; sourceTree = "<group>"; };
 		FCA74F3C13087B45007DC7FD /* giornalinux6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = giornalinux6.pdf; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				FCB0FBEA13083F0100476A4E /* CoreLocation.framework in Frameworks */,
 				FCB0FBEE13083F1200476A4E /* MapKit.framework in Frameworks */,
 				FCA750A613088825007DC7FD /* QuickLook.framework in Frameworks */,
+				FC4683971315766B00B10E4B /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +195,7 @@
 				FCB0FBE913083F0100476A4E /* CoreLocation.framework */,
 				FCB0FBED13083F1200476A4E /* MapKit.framework */,
 				FCA750A513088825007DC7FD /* QuickLook.framework */,
+				FC4683961315766B00B10E4B /* iAd.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
