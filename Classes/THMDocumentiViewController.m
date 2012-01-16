@@ -47,7 +47,7 @@ typedef enum {
 			num = 1;
 			break;
 		case Giornalinux:
-			num = 9;
+			num = NUMERI_GIORNALINUX;
 			break;
 		case Prontuari:
 			num = 1;
@@ -128,38 +128,7 @@ typedef enum {
 			break;
 			
 		case Giornalinux:
-			switch (indexPath.row) {
-				case 0:
-					testo = @"Giornalinux numero 0";
-					break;
-				case 1:
-					testo = @"Giornalinux numero 1";
-					break;
-				case 2:
-					testo = @"Giornalinux numero 2";
-					break;
-				case 3:
-					testo = @"Giornalinux numero 3";
-					break;
-				case 4:
-					testo = @"Giornalinux numero 4";
-					break;
-				case 5:
-					testo = @"Giornalinux numero 5";
-					break;
-				case 6:
-					testo = @"Giornalinux numero 6";
-					break;
-				case 7:
-					testo = @"Giornalinux numero 7";
-					break;
-				case 8:
-					testo = @"Giornalinux numero 8";
-					break;					
-					
-				default:
-					break;
-			}
+			testo = [NSString stringWithFormat:@"Giornalinux numero %d", indexPath.row];
 
 			break;
 			
@@ -202,38 +171,7 @@ typedef enum {
 			break;
 			
 		case Giornalinux:
-			switch (indexPath.row) {
-				case 0:
-					nomePdf = @"giornalinux0.pdf";
-					break;
-				case 1:
-					nomePdf = @"giornalinux1.pdf";
-					break;
-				case 2:
-					nomePdf = @"giornalinux2.pdf";
-					break;
-				case 3:
-					nomePdf = @"giornalinux3.pdf";
-					break;
-				case 4:
-					nomePdf = @"giornalinux4.pdf";
-					break;
-				case 5:
-					nomePdf = @"giornalinux5.pdf";
-					break;
-				case 6:
-					nomePdf = @"giornalinux6.pdf";
-					break;
-				case 7:
-					nomePdf = @"giornalinux7.pdf";
-					break;
-				case 8:
-					nomePdf = @"giornalinux8.pdf";
-					break;					
-					
-				default:
-					break;
-			}
+			nomePdf = [NSString stringWithFormat:@"giornalinux%d.pdf", indexPath.row];
 			
 			
 			break;

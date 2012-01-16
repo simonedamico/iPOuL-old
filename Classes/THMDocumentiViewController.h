@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <QuickLook/QuickLook.h>
 
+#define NUMERI_GIORNALINUX 11
+
 @interface THMDocumentiViewController : UIViewController <UITableViewDelegate, UITableViewDelegate, UIDocumentInteractionControllerDelegate> {
 	UITableView * tableView;
 	UIDocumentInteractionController * docInteractionController;
