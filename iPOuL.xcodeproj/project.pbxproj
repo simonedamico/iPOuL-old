@@ -26,9 +26,10 @@
 		FC126AA812F2F91800953BE3 /* tux.png in Resources */ = {isa = PBXBuildFile; fileRef = FC126AA712F2F91800953BE3 /* tux.png */; };
 		FC4683971315766B00B10E4B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4683961315766B00B10E4B /* iAd.framework */; };
 		FC5769C914C4D379007DF919 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC5769C814C4D379007DF919 /* MainWindow-iPad.xib */; };
-		FC5769CB14C4D418007DF919 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5769CA14C4D418007DF919 /* Default.png */; };
 		FC5E776C14C4D9BE0071DE7D /* giornalinux9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC5E776A14C4D9BE0071DE7D /* giornalinux9.pdf */; };
 		FC5E776D14C4D9BE0071DE7D /* giornalinux10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC5E776B14C4D9BE0071DE7D /* giornalinux10.pdf */; };
+		FC5E777814C4DD520071DE7D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5E777714C4DD520071DE7D /* Default.png */; };
+		FC5E777A14C4DD660071DE7D /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5E777914C4DD660071DE7D /* Default~ipad.png */; };
 		FC7ACB84131512AA00B96D24 /* 59-info.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7ACB82131512AA00B96D24 /* 59-info.png */; };
 		FC7ACB85131512AA00B96D24 /* 59-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7ACB83131512AA00B96D24 /* 59-info@2x.png */; };
 		FCA74F3D13087B45007DC7FD /* giornalinux6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCA74F3C13087B45007DC7FD /* giornalinux6.pdf */; };
@@ -83,9 +84,10 @@
 		FC126B7B12F3549700953BE3 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		FC4683961315766B00B10E4B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		FC5769C814C4D379007DF919 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources/Nibs/iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
-		FC5769CA14C4D418007DF919 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FC5E776A14C4D9BE0071DE7D /* giornalinux9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = giornalinux9.pdf; sourceTree = "<group>"; };
 		FC5E776B14C4D9BE0071DE7D /* giornalinux10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = giornalinux10.pdf; sourceTree = "<group>"; };
+		FC5E777714C4DD520071DE7D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Nibs/Default.png; sourceTree = "<group>"; };
+		FC5E777914C4DD660071DE7D /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
 		FC7ACB82131512AA00B96D24 /* 59-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info.png"; sourceTree = "<group>"; };
 		FC7ACB83131512AA00B96D24 /* 59-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info@2x.png"; sourceTree = "<group>"; };
 		FCA74F3C13087B45007DC7FD /* giornalinux6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = giornalinux6.pdf; sourceTree = "<group>"; };
@@ -186,7 +188,8 @@
 				FCB72A1C1308334E004388B1 /* Images */,
 				FCB72A1B13083346004388B1 /* Nibs */,
 				8D1107310486CEB800E47090 /* iPOuL-Info.plist */,
-				FC5769CA14C4D418007DF919 /* Default.png */,
+				FC5E777714C4DD520071DE7D /* Default.png */,
+				FC5E777914C4DD660071DE7D /* Default~ipad.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -390,9 +393,10 @@
 				FC7ACB84131512AA00B96D24 /* 59-info.png in Resources */,
 				FC7ACB85131512AA00B96D24 /* 59-info@2x.png in Resources */,
 				FC5769C914C4D379007DF919 /* MainWindow-iPad.xib in Resources */,
-				FC5769CB14C4D418007DF919 /* Default.png in Resources */,
 				FC5E776C14C4D9BE0071DE7D /* giornalinux9.pdf in Resources */,
 				FC5E776D14C4D9BE0071DE7D /* giornalinux10.pdf in Resources */,
+				FC5E777814C4DD520071DE7D /* Default.png in Resources */,
+				FC5E777A14C4DD660071DE7D /* Default~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
